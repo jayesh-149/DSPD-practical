@@ -12,15 +12,17 @@ int main() {
     for(i = 0; i < n; i++) {
         scanf("%d", &arr[i]);
     }
-
     for(i = 0; i < n; i++) {
-        if((i + 1) % 2 == 0)  
+        if((i + 1) % 2 == 0){  
             sum_even += arr[i];
-        else                   
+        }
+        else{                   
             sum_odd += arr[i];
+        }
     }
     printf("\nSum of elements at odd positions = %d", sum_odd);
     printf("\nSum of elements at even positions = %d", sum_even);
 
     return 0;
 }
+
