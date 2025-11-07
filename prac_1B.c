@@ -1,5 +1,5 @@
 /*
-1B.Write a program to implement a Binary Search algorithm. Write a search function which takes a SearchList as its first parameter 
+AIM: Write a program to implement a Binary Search algorithm. Write a search function which takes a SearchList as its first parameter 
 and a Comparable as its second. If either parameter is null, or if the SearchList is empty, you should return NULL.
  implement the following algorithm: 
 • Examine the value in the middle of the current array and print it. 
@@ -55,4 +55,5 @@ int main() {
     }
     return 0;
 }
+
 
